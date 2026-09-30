@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+env/
+venv/
+
+# Byte-code and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Heavy engine binaries (auto-downloaded via download_stockfish.py)
+engine/*.exe
+engine/*.zip
+engine/temp/
+
+# Screenshots and debug previews
+*.png
+*.jpg
+*.jpeg
+
+# Local board calibration overrides
+board_config.json
+
+# IDE configurations
+.vscode/
+.idea/
